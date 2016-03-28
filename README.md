@@ -13,15 +13,10 @@ So, there are two MapReduce jobs :
 
 ## How to build it ?
 ***(This program has been developed thanks to IntelliJ IDEA ;))***
+
 1. First step is to build it and generates classes files.
-2. Then execute following command inside target/classes folder
-```bash
-jar cfve LetterCOunt.jar Main *
-```
-3. Open an Hadoop environment then execute jar like this
-```bash
-hadoop jar LetterCount.jar /user/input /user/outputCount /user/outputSort
-```
+2. Then execute following command inside target/classes folder `jar cfve LetterCOunt.jar Main * `
+3. Open an Hadoop environment then execute jar like this `hadoop jar LetterCount.jar /user/input /user/outputCount /user/outputSort`
 
 **Remark:** this jar takes 3 parameters :
 * 0 : input path which will contain the text to analyse
